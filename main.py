@@ -11,7 +11,7 @@ class CommonValue:
 class Square(CommonValue):
 
     def __init__(self, side, base):
-        super().__init__(side, base)   # check this - put one or two value base on parent class
+        super().__init__(side, base)   # has to have 2 parent-based value (side and base)  even if not all of the value would be used in a class
 
     def area(self):
         return self.side * self.side
@@ -88,7 +88,7 @@ while choice != 'e':                # input will be made to lower case - no need
     print("2. Rectangle")
     print("3. Triangle")
     print("E. Exit")
-    choice = input("choice: ").lower()  # make user input to lower case
+    choice = input("choice: ").lower() 
 
 if choice == 'e':
     print("\n== Exit Program ==")
