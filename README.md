@@ -1,6 +1,6 @@
 # PythonCalculateAreaOfShapes
 
-# Python Super Function - Count Area of Different Shapes
+# Super Function - Count Area of Different Shapes
 
 Objective:
 - play with super function()
